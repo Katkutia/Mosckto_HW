@@ -37,5 +37,5 @@ public class MovieManager {
             ans[i] = movies[movies.length - 1 - i];
         }
         return ans;
-    }
+    }git status
 }

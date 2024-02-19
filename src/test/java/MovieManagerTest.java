@@ -1,8 +1,7 @@
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import ru.netology.Mo
-vieManager;
+import ru.netology.MovieManager;
 
 class MovieManagerTest {
     MovieManager manager = new MovieManager();
@@ -115,7 +114,6 @@ class MovieManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
-
 
 
     @Test
