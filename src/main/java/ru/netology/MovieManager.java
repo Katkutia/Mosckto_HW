@@ -3,9 +3,10 @@ package ru.netology;
 public class MovieManager {
     private int limit;
     private String[] movies = new String[0];
+    private int defaultCountMovie;
 
     public MovieManager() {
-        this.limit = 5;
+        this.limit = 10;
     }
 
     public MovieManager(int limit) {
